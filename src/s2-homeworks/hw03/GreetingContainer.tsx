@@ -30,9 +30,9 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
     const [error, setError] = useState<any>('') // need to fix any
 
     const setNameCallback = (e: any) => { // need to fix any
-        setName('some name') // need to fix
+        setName('') // need to fix
 
-        error && setError('')
+        error && setError('fg')
     }
     const addUser = () => {
         pureAddUser(name, setError, setName, addUserCallback)

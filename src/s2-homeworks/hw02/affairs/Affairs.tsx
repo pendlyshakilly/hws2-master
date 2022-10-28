@@ -37,6 +37,8 @@ function Affairs(props: AffairsPropsType) {
         />
     ))
 
+
+
     return (
         <div>
             <div className={s.buttonContainer}>
