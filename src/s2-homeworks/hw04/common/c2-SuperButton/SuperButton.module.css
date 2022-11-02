@@ -1,16 +1,22 @@
 .button {
+    Width: 132px;
+    height: 30px;
+    border-radius: 3px;
 }
 
 .disabled {
 }
 
 .secondary {
+    width: 176px;
+    height: 30px;
 }
 
 .default {
 }
 
 .red {
+  color: red;
 }
 
 .default:hover {
@@ -20,6 +26,7 @@
 }
 
 .secondary:hover {
+
 }
 
 
