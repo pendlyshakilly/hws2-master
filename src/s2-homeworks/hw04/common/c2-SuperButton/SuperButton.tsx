@@ -1,5 +1,6 @@
 import React, {ButtonHTMLAttributes, DetailedHTMLProps} from 'react'
 import s from './SuperButton.module.css'
+import {hover} from "@testing-library/user-event/dist/hover";
 
 // тип пропсов обычной кнопки, children в котором храниться название кнопки там уже описан
 type DefaultButtonPropsType = DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>,
@@ -18,11 +19,10 @@ const SuperButton: React.FC<SuperButtonPropsType> = (
     }
 ) => {
     const finalClassName = s.button
-        // + (disabled
-        //         ? ...
-        //         : xType === 'red'
-        //             ? ...
-         + (className ? ' ' + className : '') // задачка на смешивание классов
+         /*+ (disabled ? s.disabled
+                 : xType === 'red'
+                     ? s.red
+         + (className ? s. ' ' + className : '') // задачка на смешивание классов*/
 
     return (
         <button
