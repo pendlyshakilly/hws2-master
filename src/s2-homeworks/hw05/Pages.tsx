@@ -10,7 +10,7 @@ type Path =  '/pre-junior' | '/junior' | '/junior-plus'
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
     JUNIOR: '/junior',
-    JUNIOR_PLUS: '/junior-plus',
+    JUNIOR_PLUS: '/plus-junior',
 }
 
 function Pages() {
