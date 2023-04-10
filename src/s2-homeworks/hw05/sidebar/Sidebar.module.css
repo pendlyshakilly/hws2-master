@@ -1,0 +1,36 @@
+.sidebar {
+
+}
+
+.sidebar.open {
+   width: 317px;
+   height: 720px;
+}
+
+.background {
+    background-color: black;
+}
+
+.nav {
+    Width: 317px;
+}
+
+.nav a {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.nav a:hover {
+   color: #63a6ff;
+}
+
+.nav a.active {
+    color: #0067ff;
+}
+
+.close {
+}
+
+.close img {
+}
